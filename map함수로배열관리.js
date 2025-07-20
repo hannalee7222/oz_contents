@@ -13,15 +13,16 @@ console.log('새로운 배열:', squares); //새로운 배열: [ 1, 4, 9, 16, 25
 
 //============================================================
 
-//화살표 함수 사용한 경우
-// const newArray1 = array.map((element) => {
-//   return 변환된_값;
-// });
+/* 화살표 함수 사용한 경우
+ const newArray1 = array.map((element) => {
+   return 변환된_값;
+ });
 
-// //인라인 콜백 함수 사용한 경우
-// const newArray2 = array.map(function (element) {
-//   return 변환된_값;
-// });
+ * 인라인 콜백 함수 사용한 경우
+ const newArray2 = array.map(function (element) {
+   return 변환된_값;
+ });
+ */
 
 const doubleNumbers = numbers.map((number) => {
   return number * 2;
